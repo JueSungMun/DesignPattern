@@ -1,0 +1,4 @@
+interface ITestPattern
+{
+  void DoTest();
+}
