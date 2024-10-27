@@ -1,9 +1,10 @@
 using System;
 using IteratorPattern;
+using StrategyPattern;
 
 class Program {
   public static void Main (string[] args) {
-      TestIterator _iter = new TestIterator();
-      _iter.DoTest();
+      ITestPattern _testCase = new TestStrategy();
+      _testCase.DoTest();
     }
 }
